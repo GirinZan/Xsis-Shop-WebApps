@@ -1,0 +1,131 @@
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\ApplicationInsights.config
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\roslyn\csc.exe
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\roslyn\System.Collections.Immutable.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\roslyn\System.Reflection.Metadata.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\roslyn\vbc.exe
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\roslyn\VBCSCompiler.exe
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\roslyn\VBCSCompiler.exe.config
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\XSIS.Shop.WebApps.dll.config
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\XSIS.Shop.WebApps.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\XSIS.Shop.WebApps.pdb
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Antlr3.Runtime.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\EntityFramework.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\EntityFramework.SqlServer.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.AI.Agent.Intercept.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.AI.DependencyCollector.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.AI.Web.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.AI.WindowsServer.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.ApplicationInsights.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.Web.Infrastructure.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Newtonsoft.Json.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.Helpers.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.Mvc.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.Optimization.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.Razor.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.WebPages.Deployment.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.WebPages.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.WebPages.Razor.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\WebGrease.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\EntityFramework.xml
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\EntityFramework.SqlServer.xml
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.AI.DependencyCollector.xml
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.AI.Web.xml
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.AI.WindowsServer.xml
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.ApplicationInsights.xml
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.Helpers.xml
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.Mvc.xml
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.Optimization.xml
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.Razor.xml
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.WebPages.xml
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.WebPages.Deployment.xml
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.WebPages.Razor.xml
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Antlr3.Runtime.pdb
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Newtonsoft.Json.xml
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\obj\Debug\XSIS.Shop.WebApps.csprojResolveAssemblyReference.cache
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\obj\Debug\XSIS.Shop.WebApps.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\obj\Debug\XSIS.Shop.WebApps.pdb
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\XSIS.Shop.Model.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\XSIS.Shop.Repository.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\XSIS.Shop.ViewModel.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\XSIS.Shop.Model.pdb
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\XSIS.Shop.Repository.pdb
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\XSIS.Shop.ViewModel.pdb
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\ApplicationInsights.config
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\roslyn\csc.exe
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\roslyn\vbc.exe
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\roslyn\VBCSCompiler.exe
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\XSIS.Shop.WebApps.dll.config
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\XSIS.Shop.WebApps.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\XSIS.Shop.WebApps.pdb
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Antlr3.Runtime.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\EntityFramework.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.AI.Web.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Newtonsoft.Json.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.Helpers.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.Mvc.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.Optimization.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.Razor.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.WebPages.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.WebPages.Razor.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\WebGrease.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\XSIS.Shop.Model.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\XSIS.Shop.Repository.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\XSIS.Shop.ViewModel.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\XSIS.Shop.Model.pdb
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\XSIS.Shop.Model.dll.config
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\XSIS.Shop.Repository.pdb
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\XSIS.Shop.Repository.dll.config
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\XSIS.Shop.ViewModel.pdb
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\EntityFramework.xml
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.AI.Web.xml
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.Helpers.xml
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.Mvc.xml
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.Optimization.xml
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.Razor.xml
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.WebPages.xml
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\System.Web.WebPages.Razor.xml
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Antlr3.Runtime.pdb
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\Newtonsoft.Json.xml
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\obj\Debug\XSIS.Shop.WebApps.csprojAssemblyReference.cache
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\obj\Debug\XSIS.Shop.WebApps.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\obj\Debug\XSIS.Shop.WebApps.csproj.CopyComplete
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\obj\Debug\XSIS.Shop.WebApps.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\obj\Debug\XSIS.Shop.WebApps.pdb
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.WebApps\bin\roslyn\desktop.ini

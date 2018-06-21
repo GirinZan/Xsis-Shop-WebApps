@@ -1,0 +1,21 @@
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.Model\bin\Debug\XSIS.Shop.Model.dll.config
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.Model\bin\Debug\XSIS.Shop.Model.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.Model\bin\Debug\XSIS.Shop.Model.pdb
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.Model\bin\Debug\EntityFramework.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.Model\bin\Debug\EntityFramework.xml
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.Model\obj\Debug\XSIS.Shop.Model.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.Model\obj\Debug\XSIS.Shop.Model.pdb
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Model\bin\Debug\XSIS.Shop.Model.dll.config
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Model\bin\Debug\XSIS.Shop.Model.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Model\bin\Debug\XSIS.Shop.Model.pdb
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Model\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Model\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Model\obj\Debug\XSIS.Shop.Model.csprojAssemblyReference.cache
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Model\obj\Debug\XSIS.Shop.Model.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Model\obj\Debug\XSIS.Shop.Model.csproj.CopyComplete
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Model\obj\Debug\XSIS.Shop.Model.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Model\obj\Debug\XSIS.Shop.Model.pdb

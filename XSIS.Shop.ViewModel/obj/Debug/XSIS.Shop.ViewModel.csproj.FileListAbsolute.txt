@@ -1,0 +1,10 @@
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.ViewModel\bin\Debug\XSIS.Shop.ViewModel.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.ViewModel\bin\Debug\XSIS.Shop.ViewModel.pdb
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.ViewModel\obj\Debug\XSIS.Shop.ViewModel.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.ViewModel\obj\Debug\XSIS.Shop.ViewModel.pdb
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.ViewModel\bin\Debug\XSIS.Shop.ViewModel.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.ViewModel\bin\Debug\XSIS.Shop.ViewModel.pdb
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.ViewModel\obj\Debug\XSIS.Shop.ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.ViewModel\obj\Debug\XSIS.Shop.ViewModel.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.ViewModel\obj\Debug\XSIS.Shop.ViewModel.pdb
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.ViewModel\obj\Debug\XSIS.Shop.ViewModel.csprojAssemblyReference.cache

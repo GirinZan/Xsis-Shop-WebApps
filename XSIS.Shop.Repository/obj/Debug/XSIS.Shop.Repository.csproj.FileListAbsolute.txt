@@ -1,0 +1,31 @@
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.Repository\bin\Debug\XSIS.Shop.Repository.dll.config
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.Repository\bin\Debug\XSIS.Shop.Repository.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.Repository\bin\Debug\XSIS.Shop.Repository.pdb
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.Repository\bin\Debug\EntityFramework.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.Repository\bin\Debug\XSIS.Shop.Model.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.Repository\bin\Debug\XSIS.Shop.ViewModel.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.Repository\bin\Debug\XSIS.Shop.Model.pdb
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.Repository\bin\Debug\XSIS.Shop.ViewModel.pdb
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.Repository\bin\Debug\EntityFramework.xml
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.Repository\obj\Debug\XSIS.Shop.Repository.csprojResolveAssemblyReference.cache
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.Repository\obj\Debug\XSIS.Shop.Repository.dll
+D:\XSIS Net 152\XSIS.Shop.WebApps\XSIS.Shop.Repository\obj\Debug\XSIS.Shop.Repository.pdb
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Repository\bin\Debug\XSIS.Shop.Repository.dll.config
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Repository\bin\Debug\XSIS.Shop.Repository.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Repository\bin\Debug\XSIS.Shop.Repository.pdb
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Repository\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Repository\bin\Debug\XSIS.Shop.Model.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Repository\bin\Debug\XSIS.Shop.ViewModel.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Repository\bin\Debug\XSIS.Shop.Model.pdb
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Repository\bin\Debug\XSIS.Shop.Model.dll.config
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Repository\bin\Debug\XSIS.Shop.ViewModel.pdb
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Repository\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Repository\obj\Debug\XSIS.Shop.Repository.csprojAssemblyReference.cache
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Repository\obj\Debug\XSIS.Shop.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Repository\obj\Debug\XSIS.Shop.Repository.csproj.CopyComplete
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Repository\obj\Debug\XSIS.Shop.Repository.dll
+C:\Users\Lenovo\Google Drive\Bootcamp XSIS\Materi .net\XSIS.Shop.WebApps\XSIS.Shop.Repository\obj\Debug\XSIS.Shop.Repository.pdb

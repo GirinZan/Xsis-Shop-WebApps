@@ -1,0 +1,91 @@
+﻿@model IEnumerable<XSIS.Shop.ViewModel.CustomerViewModel>
+
+@{
+    ViewBag.SelectedHome = "";
+    ViewBag.SelectedCustomer = "active";
+    ViewBag.SelectedSupplier = "";
+    ViewBag.SelectedProduct = "";
+    ViewBag.SelectedOrder = "";
+    ViewBag.Title = "Index";
+}
+
+<div class="block-header">
+    <h2>List Customer XSIS Shop</h2>
+</div>
+
+<div class="card">  
+    <div class="card-header">
+        <div class="row">
+                <form method="post">
+                    <div class="col-xs-3">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="zmdi zmdi-account"></i></span>
+                            @Html.TextBox("Name", "", new { @placeholder = "Fullname", @class = "form-control" })
+                        </div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="zmdi zmdi-pin"></i></span>
+                            @Html.TextBox("Region", "", new { @placeholder = "City / Country", @class = "form-control" })
+                        </div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="zmdi zmdi-email"></i></span>
+                            @Html.TextBox("Mail", "", new { @placeholder = "E-Mail", @class = "form-control" })
+                        </div>
+                    </div>
+                    <div class="col-xs-3">
+                        <button type="submit" class="btn btn-primary btn-sm"><i class="zmdi zmdi-search"></i></button>
+                        <a href="@Url.Action("Create","Customers")" class="btn btn-info">Create New Customer</a>
+                    </div>
+                </form>
+            </div>
+    </div>
+    
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.FirstName)</th>
+                    <th>@Html.DisplayNameFor(model => model.LastName)</th>
+                    <th>@Html.DisplayNameFor(model => model.City)</th>
+                    <th>@Html.DisplayNameFor(model => model.Country)</th>
+                    <th>@Html.DisplayNameFor(model => model.Phone)</th>
+                    <th>@Html.DisplayNameFor(model => model.Email)</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.FirstName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.LastName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.City)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Country)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Phone)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Email)
+                        </td>
+                        <td>
+                            <a href="@Url.Action("Edit","Customers", new { id = item.Id })" class="btn btn-info"><i class="zmdi zmdi-edit"></i></a>
+                            <a href="@Url.Action("Details","Customers", new { id = item.Id })" class="btn btn-success"><i class="zmdi zmdi-search"></i></a>
+                            <a href="@Url.Action("Delete","Customers", new { id = item.Id })" class="btn btn-danger"><i class="zmdi zmdi-delete"></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

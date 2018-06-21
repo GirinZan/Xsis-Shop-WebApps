@@ -1,0 +1,82 @@
+﻿@model IEnumerable<XSIS.Shop.ViewModel.OrderViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+            <form method="post">
+                <div class="col-xs-3">
+                    <div class="input-group">
+                        @Html.TextBox("OrderNumber", "", new { @placeholder = "Order Number", @class = "form-control" })
+                    </div>
+                </div>
+                <div class="col-xs-3">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="zmdi zmdi-calendar"></i></span>
+                        @Html.TextBox("Date", "", new { @placeholder = "Date", @class = "form-control date-picker" })
+                    </div>
+                </div>
+                <div class="col-xs-3">
+                    <div class="input-group">
+                        @Html.DropDownList("CustomerId", null, "--Select Customer--", new {@class = "form-control" })
+                    </div>
+                </div>
+                <div class="col-xs-3">
+                    <button type="submit" class="btn btn-primary btn-sm"><i class="zmdi zmdi-search"></i>Search</button>
+                    <a href="@Url.Action("Create","Orders")" class="btn btn-info">New Order</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <table class="table table-striped">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalAmount)
+            </th>
+            <th>
+                Action
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OrderNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OrderDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CustomerName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalAmount)
+                </td>
+                <td>
+                    @Html.ActionLink("Details", "Details", new { id = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

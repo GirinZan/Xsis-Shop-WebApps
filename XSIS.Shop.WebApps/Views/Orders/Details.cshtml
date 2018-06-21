@@ -1,0 +1,95 @@
+﻿@model XSIS.Shop.ViewModel.OrderViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h1>Order Details</h1>
+    </div>
+    
+    <div class="card-body card-padding">
+        <div class="pmb-block">
+            <div class="pmbb-body p-l-30">
+                <div class="pmbb-view">
+                    <dl class="dl-horizontal">
+                        <dt>
+                            @Html.DisplayNameFor(model => model.OrderNumber)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.OrderNumber)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.OrderDate)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.OrderDate)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.CustomerName)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.CustomerName)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.orderItem)
+                        </dt>
+                        
+                        <dd>
+                            <table class="table table-striped">
+                                <tr>
+                                    <th>
+                                        Product Name
+                                    </th>
+                                    <th>
+                                        Unit Price
+                                    </th>
+                                    <th>
+                                        Order Quantity
+                                    </th>
+                                    <th>
+                                        Total Amount
+                                    </th>
+                                </tr>
+                                @foreach (var item in Model.orderItem)
+                                {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.ProductName)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.UnitPrice)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Quantity)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.TotalAmount)
+                                        </td>
+                                    </tr>
+                                }
+                            </table>
+                        </dd>
+                        <dt>
+                            @Html.DisplayNameFor(model => model.TotalAmount)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.TotalAmount)
+                        </dd>
+                    </dl>
+
+                    <a href="@Url.Action("Index","Orders")" class="btn btn-primary btn-sm m-t-10">Back to Index</a>
+                    <br />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
