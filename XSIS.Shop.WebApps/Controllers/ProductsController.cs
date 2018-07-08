@@ -19,7 +19,6 @@ namespace XSIS.Shop.WebApps.Controllers
     public class ProductsController : Controller
     {
         private string ApiUrl = WebConfigurationManager.AppSettings["XSIS.Shop.API"];
-        ProductRepository service = new ProductRepository();
         // GET: Products
         public ActionResult Index()
         {
@@ -39,7 +38,7 @@ namespace XSIS.Shop.WebApps.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             int idx = id.HasValue ? id.Value : 0;
-            string ApiEndPoint = ApiUrl + "api/ProductApi/Get/" + idx;
+            string ApiEndPoint = ApiUrl + "api/ProductApi/" + idx;
             HttpClient client = new HttpClient();
             HttpResponseMessage response = client.GetAsync(ApiEndPoint).Result;
             string list = response.Content.ReadAsStringAsync().Result.ToString();
@@ -90,12 +89,12 @@ namespace XSIS.Shop.WebApps.Controllers
                     return View(item);
                 }
             }
-            string ApiEndPoint1 = ApiUrl + "api/ProductApi/Supplier";
+            string ApiEndPoint1 = ApiUrl + "api/ProductApi/Supplier/";
             HttpClient client1 = new HttpClient();
             HttpResponseMessage response1 = client1.GetAsync(ApiEndPoint1).Result;
-            string list = response1.Content.ReadAsStringAsync().Result.ToString();
-            List<SupplierViewModel> result1 = JsonConvert.DeserializeObject<List<SupplierViewModel>>(list);
-            ViewBag.SupplierId = new SelectList(result1.ToList(), "Id", "CompanyName", item.SupplierId);
+            string list1 = response1.Content.ReadAsStringAsync().Result.ToString();
+            List<SupplierViewModel> result1 = JsonConvert.DeserializeObject<List<SupplierViewModel>>(list1);
+            ViewBag.SupplierId = new SelectList(result1.ToList(), "Id", "CompanyName");
             return View(item);
         }
 
@@ -107,7 +106,7 @@ namespace XSIS.Shop.WebApps.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             int idx = id.HasValue ? id.Value : 0;
-            string ApiEndPoint = ApiUrl + "api/ProductApi/Get/" + idx;
+            string ApiEndPoint = ApiUrl + "api/ProductApi/" + idx;
             HttpClient client = new HttpClient();
             HttpResponseMessage response = client.GetAsync(ApiEndPoint).Result;
             string list = response.Content.ReadAsStringAsync().Result.ToString();
@@ -116,7 +115,11 @@ namespace XSIS.Shop.WebApps.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.SupplierId = new SelectList(service.GetAllSupplier(), "Id", "CompanyName");
+            ApiEndPoint = ApiUrl + "api/ProductApi/Supplier/";
+            response = client.GetAsync(ApiEndPoint).Result;
+            list = response.Content.ReadAsStringAsync().Result.ToString();
+            var result1 = JsonConvert.DeserializeObject<List<SupplierViewModel>>(list);
+            ViewBag.SupplierId = new SelectList(result1.ToList(), "Id", "CompanyName");
             return View(result);
         }
 
@@ -129,10 +132,26 @@ namespace XSIS.Shop.WebApps.Controllers
         {
             if (ModelState.IsValid)
             {
-                service.EditProduct(item);
-                return RedirectToAction("Index");
+                string json = JsonConvert.SerializeObject(item);
+                var buffer = System.Text.Encoding.UTF8.GetBytes(json);
+                var byteContent = new ByteArrayContent(buffer);
+                byteContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
+                string ApiEndPoint = ApiUrl + "api/ProductApi";
+                HttpClient client = new HttpClient();
+                HttpResponseMessage response = client.PutAsync(ApiEndPoint, byteContent).Result;
+                string result = response.Content.ReadAsStringAsync().Result.ToString();
+                int success = int.Parse(result);
+                if (success == 1)
+                {
+                    return RedirectToAction("Index");
+                }
             }
-            ViewBag.SupplierId = new SelectList(service.GetAllSupplier(), "Id", "CompanyName", item.SupplierId);
+            string ApiEndPoint1 = ApiUrl + "api/ProductApi/Supplier/";
+            HttpClient client1 = new HttpClient();
+            HttpResponseMessage response1 = client1.GetAsync(ApiEndPoint1).Result;
+            string list1 = response1.Content.ReadAsStringAsync().Result.ToString();
+            List<SupplierViewModel> result1 = JsonConvert.DeserializeObject<List<SupplierViewModel>>(list1);
+            ViewBag.SupplierId = new SelectList(result1.ToList(), "Id", "CompanyName");
             return View(item);
         }
 
@@ -144,7 +163,7 @@ namespace XSIS.Shop.WebApps.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             int idx = id.HasValue ? id.Value : 0;
-            string ApiEndPoint = ApiUrl + "api/ProductApi/Get/" + idx;
+            string ApiEndPoint = ApiUrl + "api/ProductApi/" + idx;
             HttpClient client = new HttpClient();
             HttpResponseMessage response = client.GetAsync(ApiEndPoint).Result;
             string list = response.Content.ReadAsStringAsync().Result.ToString();
@@ -161,8 +180,19 @@ namespace XSIS.Shop.WebApps.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            service.DeleteProduct(id);
-            return RedirectToAction("Index");
+            string apiEndPoint = ApiUrl + "api/ProductApi/" + id;
+            HttpClient client = new HttpClient();
+            HttpResponseMessage response = client.DeleteAsync(apiEndPoint).Result;
+            string result = response.Content.ReadAsStringAsync().Result.ToString();
+            int success = int.Parse(result);
+            if (success == 1)
+            {
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return HttpNotFound();
+            }
         }
     }
 }

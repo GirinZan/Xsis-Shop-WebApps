@@ -15,7 +15,7 @@
           <Property Name="City" Type="nvarchar" MaxLength="40" />
           <Property Name="Country" Type="nvarchar" MaxLength="40" />
           <Property Name="Phone" Type="nvarchar" MaxLength="20" />
-          <Property Name="Email" Type="nvarchar" MaxLength="50" />
+          <Property Name="Email" Type="nvarchar" MaxLength="35" />
         </EntityType>
         <EntityType Name="Order">
           <Key>
@@ -85,6 +85,18 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="FK_ORDERITE_REFERENCE_PRODUCT">
+          <End Role="Product" Type="Self.Product" Multiplicity="1" />
+          <End Role="OrderItem" Type="Self.OrderItem" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Product">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="OrderItem">
+              <PropertyRef Name="ProductId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="FK_PRODUCT_REFERENCE_SUPPLIER">
           <End Role="Supplier" Type="Self.Supplier" Multiplicity="1" />
           <End Role="Product" Type="Self.Product" Multiplicity="*" />
@@ -111,6 +123,10 @@
             <End Role="Order" EntitySet="Order" />
             <End Role="OrderItem" EntitySet="OrderItem" />
           </AssociationSet>
+          <AssociationSet Name="FK_ORDERITE_REFERENCE_PRODUCT" Association="Self.FK_ORDERITE_REFERENCE_PRODUCT">
+            <End Role="Product" EntitySet="Product" />
+            <End Role="OrderItem" EntitySet="OrderItem" />
+          </AssociationSet>
           <AssociationSet Name="FK_PRODUCT_REFERENCE_SUPPLIER" Association="Self.FK_PRODUCT_REFERENCE_SUPPLIER">
             <End Role="Supplier" EntitySet="Supplier" />
             <End Role="Product" EntitySet="Product" />
@@ -130,7 +146,7 @@
           <Property Name="City" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
           <Property Name="Country" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
           <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
-          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="35" FixedLength="false" Unicode="true" />
           <NavigationProperty Name="Order" Relationship="Self.FK_ORDER_REFERENCE_CUSTOMER" FromRole="Customer" ToRole="Order" />
         </EntityType>
         <EntityType Name="Order">

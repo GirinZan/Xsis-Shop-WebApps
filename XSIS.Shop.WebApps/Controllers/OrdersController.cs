@@ -81,7 +81,10 @@ namespace XSIS.Shop.WebApps.Controllers
             HttpResponseMessage response = client.GetAsync(ApiEndPoint).Result;
             string resultList = response.Content.ReadAsStringAsync().Result.ToString();
             var OrderVM = JsonConvert.DeserializeObject<OrderViewModel>(resultList);
-            TempData["List"] = new List<OrderItemViewModel>();
+            if (TempData["List"] == null)
+            {
+                TempData["List"] = new List<OrderItemViewModel>();
+            }
             TempData.Keep();
 
             ApiEndPoint = ApiUrl + "api/OrderApi/Customer";

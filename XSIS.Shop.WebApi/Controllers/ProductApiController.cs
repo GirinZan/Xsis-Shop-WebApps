@@ -15,18 +15,21 @@ namespace XSIS.Shop.WebApi.Controllers
     {
         private ProductRepository service = new ProductRepository();
         [HttpGet]
+        [Route("api/ProductApi/")]
         public List<ProductViewModel> Get ()
         {
             var result = service.GetAllProduct();
             return result;
         }
         [HttpGet]
+        [Route("api/ProductApi/{id}")]
         public ProductViewModel Get(int id)
         {
             var result = service.GetProductById(id);
             return result;
         }
         [HttpPost]
+        [Route("api/ProductApi/")]
         public int Post(ProductViewModel item)
         {
             try
@@ -40,6 +43,7 @@ namespace XSIS.Shop.WebApi.Controllers
             }
         }
         [HttpPut]
+        [Route("api/ProductApi/")]
         public int Put(ProductViewModel item)
         {
             try
@@ -53,6 +57,7 @@ namespace XSIS.Shop.WebApi.Controllers
             }
         }
         [HttpDelete]
+        [Route("api/ProductApi/{id}")]
         public int Delete(int id)
         {
             try
@@ -66,6 +71,7 @@ namespace XSIS.Shop.WebApi.Controllers
             }
         }
         [HttpGet]
+        [Route("api/ProductApi/Supplier")]
         public List<SupplierViewModel> Supplier()
         {
             var result = service.GetAllSupplier();

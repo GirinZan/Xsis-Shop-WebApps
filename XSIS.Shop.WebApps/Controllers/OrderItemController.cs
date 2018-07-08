@@ -22,6 +22,8 @@ namespace XSIS.Shop.WebApps.Controllers
         }
         public ActionResult Add(OrderItemViewModel itemVM)
         {
+            Session["itemVM"] = itemVM;
+            Session["List"] = TempData["List"];
             var order = service.temporaryList(itemVM, (List<OrderItemViewModel>)TempData["List"]);
             TempData["List"] = order.orderItem;
             TempData.Keep();
